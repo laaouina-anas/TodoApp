@@ -51,20 +51,20 @@ Each time you perform an operation, the file is updated!
 
 ## Usage
 
-task
-task [-h --help | -c --clear | -l --list]
-task [-a --add | -d --delete] [list of strings or ids separated by space]
-task [-m --modify] [id] [-s --status | -t --text] [text | [d | n]]
+- task
+- task [-h --help | -c --clear | -l --list]
+- task [-a --add | -d --delete] [list of strings or ids separated by space]
+- task [-m --modify] [id] [-s --status | -t --text] [text | [d | n]]
 
 ## Options
 
--h --help  : display this help output
--a --add   : add a list of tasks
--d --delete: delete a list of tasks by id -l --list  : print your task list
--c --clear : clear your task list, this action is permanent
--m --modify: modify a specific task by it's id
--s --status: for modifying the status, see usage above, 'd' is for done, 'n' is for not done
--t --text  : for modifying the text/description, see usage above
+- -h --help  : display this help output
+- -a --add   : add a list of tasks
+- -d --delete: delete a list of tasks by id -l --list  : print your task list
+- -c --clear : clear your task list, this action is permanent
+- -m --modify: modify a specific task by it's id
+- -s --status: for modifying the status, see usage above, 'd' is for done, 'n' is for not done
+- -t --text  : for modifying the text/description, see usage above
 
 ## Examples
 ```bash
