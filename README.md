@@ -60,7 +60,8 @@ Each time you perform an operation, the file is updated!
 
 - -h --help  : display this help output
 - -a --add   : add a list of tasks
-- -d --delete: delete a list of tasks by id -l --list  : print your task list
+- -d --delete: delete a list of tasks by id 
+- -l --list  : print your task list
 - -c --clear : clear your task list, this action is permanent
 - -m --modify: modify a specific task by it's id
 - -s --status: for modifying the status, see usage above, 'd' is for done, 'n' is for not done

@@ -30,7 +30,7 @@ void displayUsage()
     "Options :\n"
     " -h --help  : display this help output\n"
     " -a --add   : add a list of tasks\n"
-    " -d --delete: delete a list of tasks by id"
+    " -d --delete: delete a list of tasks by id\n"
     " -l --list  : print your task list\n"
     " -c --clear : clear your task list, this action is permanent\n"
     " -m --modify: modify a specific task by it's id\n"
