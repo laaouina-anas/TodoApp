@@ -1,0 +1,25 @@
+# Binaries in /bin directory
+/bin/*
+
+# But keep the bin directory itself
+!/bin/.gitkeep
+
+# Object files
+*.o
+
+# VSCode IDE files
+.vscode/
+
+# Temporary files
+*.tmp
+
+# My custom file extension
+*.tsk
+
+# Shell scripts 
+*.sh
+
+
+
+
+
