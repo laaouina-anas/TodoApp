@@ -4,6 +4,8 @@
 #include <time.h>
 #include <string.h>
 #include <stdint.h>
+#include <unistd.h>
+#include <pwd.h>
 #include "task.h"
 #include "settings.h"
 #include "utils.h"
@@ -197,3 +199,6 @@ int main(int argc, char const *argv[])
     destroyTaskArr(arr);
     return 0;
 }
+
+
+// This thing got modified ...

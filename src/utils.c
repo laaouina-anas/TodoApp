@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <pwd.h>
+#include <task.h>
 #include "utils.h"
 #include "settings.h"
 
