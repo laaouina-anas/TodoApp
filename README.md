@@ -1,4 +1,4 @@
-# TodoApp
+# TodoApp because why not ?
 
 A super fast system level todo App that works on the terminal
 
@@ -48,6 +48,13 @@ Your tasks will be stored in the home directory, it is your default
 directory when you first open the terminal, when you first use the program, a new
 tasks.tsk file will be created, containing all your tasks in a binary format.
 Each time you perform an operation, the file is updated!
+
+## Bugs
+This project has some bugs, when you add lots of todo strings it crashes
+I'll see how to correct it in the nearest future... keep waiting ....
+....
+....
+.......................................................
 
 ## Usage
 
