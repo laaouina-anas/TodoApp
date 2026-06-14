@@ -1,10 +1,10 @@
-# TodoApp because why not ?
+# System level storage management (used here to make a todo app)
 
-A super fast system level todo App that works on the terminal
+A super fast system level todo App implemented from scratch
 
 # Features
 
-- Supports atomic file I/O file operations (your tasks stay safe)
+- Supports atomic file I/O file operations
 - Uses a custom file format (.tsk) with a custom header and layout
 - A clean CLI design, works natively like other linux commands
 
@@ -41,20 +41,12 @@ open the terminal, *inside the TodoApp directory*:
 echo export PATH=$PATH:$PWD/bin/ >> ~/.bashrc
 source ~/.bashrc
 ```
-you are done !
 
 ## Note
 Your tasks will be stored in the home directory, it is your default
 directory when you first open the terminal, when you first use the program, a new
 tasks.tsk file will be created, containing all your tasks in a binary format.
 Each time you perform an operation, the file is updated!
-
-## Bugs
-This project has some bugs, when you add lots of todo strings it crashes
-I'll see how to correct it in the nearest future... keep waiting ....
-....
-....
-.......................................................
 
 ## Usage
 
